@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WEB DEV JEOPARDY</h1>
+    <div id="tableContainer">
+        <table id="gameTable">
+            <tr>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JavaScript</th>
+                <th>SASS</th>
+                <th>BONUS</th>
+            </tr>
+            <tr>
+                <td class="card htmlCard">
+                    $10
+                </td>   
+                <td class="card cssCard">
+                    $10
+                </td>
+                <td class="card javaScriptCard">
+                    $10
+                </td>   
+                <td class="card sassCard">
+                    $10
+                </td>
+                <td class="card bonusCard">
+                    $10
+                </td>
+            </tr>
+            <tr>
+                <td class="card htmlCard">
+                    $50
+                </td>   
+                <td class="card cssCard">
+                    $50
+                </td>
+                <td class="card javaScriptCard">
+                    $50
+                </td>   
+                <td class="card sassCard">
+                    $50
+                </td>
+                <td class="card bonusCard">
+                    $50
+                </td>
+            </tr>
+            <tr>
+                <td class="card htmlCard">
+                    $100
+                </td>   
+                <td class="card cssCard">
+                    $100
+                </td>
+                <td class="card javaScriptCard">
+                    $100
+                </td>   
+                <td class="card sassCard">
+                    $100
+                </td>
+                <td class="card bonusCard">
+                    $100
+                </td>
+            </tr>
+            <tr>
+                <td class="card htmlCard">
+                    $500
+                </td>   
+                <td class="card cssCard">
+                    $500
+                </td>
+                <td class="card javaScriptCard">
+                    $500
+                </td>   
+                <td class="card sassCard">
+                    $500
+                </td>
+                <td class="card bonusCard">
+                    $500
+                </td>
+            </tr>
+            <tr>
+                <td class="card htmlCard">
+                    $1000
+                </td>   
+                <td class="card cssCard">
+                    $1000
+                </td>
+                <td class="card javaScriptCard">
+                    $1000
+                </td>   
+                <td class="card sassCard">
+                    $1000
+                </td>
+                <td class="card bonusCard">
+                    $1000
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2 id="ScoreDisplay">SCORE: $</h2>
+    </div><span id="score"><button><i class="fas fa-gamepad"  id="newGameButton"></i></button></span>
+<div id="modal">
+    <h1 id="modalHeader"></h1>
+    <div class="modal-content">
+        <fieldset id="fieldSet">
+            <legend id = "question">What is the Question?</legend>
+            <p id="A"></p>
+            <p id="B"></p>
+            <p id="C"></p>
+            <p id="D"></p>
+        </fieldset>
+        <span id="close-btn">Close <i class="far fa-times-circle"></i></span>
+    </div>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="js.js"></script>
+</body>
+</html>

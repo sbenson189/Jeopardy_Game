@@ -1,0 +1,148 @@
+body {
+  background-color: rgba(5, 9, 255, 0.801);
+  display: inline-block;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 50px;
+}
+
+body h2 {
+  color: whitesmoke;
+  text-align: left;
+}
+
+body button {
+  background-color: blue;
+  color: whitesmoke;
+  font-size: 50px;
+  border-radius: 100%;
+  margin-left: 10%;
+}
+
+body button:hover {
+  background-color: red;
+  cursor: pointer;
+  -webkit-transition: .29s;
+  transition: .29s;
+}
+
+body #modal {
+  display: none;
+  position: fixed;
+  padding-top: 50px;
+  left: 15%;
+  top: 25%;
+  width: 1000px;
+  height: 75px;
+  font-size: 16px;
+}
+
+body #modal p:hover, body #modal text:hover {
+  color: red;
+  cursor: pointer;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+body #modal input[type=radio] {
+  display: block;
+  clear: none;
+}
+
+body #modal label {
+  float: right;
+  margin-right: 450px;
+}
+
+body .modal-content {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  width: 75%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  border-radius: 7.5%;
+}
+
+body .modal-content fieldset {
+  overflow: hidden;
+}
+
+body #close-btn {
+  float: right;
+}
+
+body #close-btn:hover {
+  color: whitesmoke;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+body table {
+  text-align: center;
+}
+
+body table th {
+  color: whitesmoke;
+  border: solid black 4px;
+}
+
+body table tr {
+  font-weight: bolder;
+}
+
+body table tr td {
+  background-color: #00eeff;
+  border: solid black 1.5px;
+  border-radius: 15%;
+  text-align: center;
+  padding: 2rem 4rem;
+}
+
+body table tr td:hover {
+  background-color: whitesmoke;
+  color: rgba(5, 9, 255, 0.801);
+  -webkit-transition: .29s;
+  transition: .29s;
+  cursor: pointer;
+}
+
+body table tr .selected {
+  background-color: red;
+  color: whitesmoke;
+}
+
+body table tr .completed {
+  color: red;
+  background-color: whitesmoke;
+}
+/*# sourceMappingURL=css.css.map */
