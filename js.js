@@ -236,4 +236,4 @@ correctAnswerFunc = (questionsList) => {
     questionArray.push(questionsList[i].correctAnswer)
   }
   return questionArray
-  }
+}
